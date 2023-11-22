@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <title>Bitbee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat App</title>
   <link rel="icon" href="img/favicon.png" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/phone.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/chat.css" />
+  <link rel="stylesheet" href="css/chat-phone.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -25,7 +27,7 @@
     <!-- top bar -->
     <div id="top-bar">
       <div id="logo">
-        <img width=20px src="/assets/logo.svg" alt="Bitbee">
+        <img src="/assets/BITbee.png" alt="Bitbee">
       </div>
       <div id="top-right">
         <div id="peopleOnline">
@@ -35,24 +37,11 @@
       </div>
     </div>
 
-    <!-- video container -->
-    <div id="videos">
-      <div id="peer">
-        <video class="video-player mirror" id="video-peer" autoplay playsinline></video>
-        <div id="peer-video-loader"></div>
-        <img src="/assets/logo.svg" alt="Bitbee" id="watermark">
-      </div>
-      <div id="self">
-        <video class="video-player mirror" id="video-self" autoplay playsinline muted="muted"></video>
-      </div>
-    </div>
-
     <!-- message area -->
     <div id="message-area">
       <div id="messages"></div>
       <div id="typing" style="display: none" class="message">Stranger is typing...</div>
     </div>
-
 
     <!-- input area -->
     <div id="input-area">
@@ -75,7 +64,7 @@
   </div>
 
   <script defer src="./js/main.js"></script>
-  <script defer src="./js/video.js" type="module"></script>
+  <script defer src="./js/chat.js" type="module"></script>
 </body>
 
 </html>

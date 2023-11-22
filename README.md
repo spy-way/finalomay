@@ -1,19 +1,19 @@
-# Ajnabee - Anonymous Peer-to-Peer Video Chat
+# Bitbee - Anonymous Peer-to-Peer Video Chat
 
-Ajnabee is an Omegle-inspired web application that enables users to engage in anonymous video chats with random peers.
+Bitbee is an Omegle-inspired web application that enables users to engage in anonymous video chats with random peers.
 
 ## Setup and Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AkashKarnatak/Ajnabee.git
+   git clone https://github.com/AkashKarnatak/Bitbee.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Ajnabee
+   cd Bitbee
    ```
 
 3. Install dependencies:
